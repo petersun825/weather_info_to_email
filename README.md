@@ -12,15 +12,15 @@ Python script that converts location into longitude and latitude coordinates and
  7. if you'd like it to run the file automatically can use cron.  here's a tutorial: https://www.howtogeek.com/101288/how-to-schedule-tasks-on-linux-an-introduction-to-crontab-files/
  
  cron cheatsheet:
-# ┌───────────── minute (0 - 59)
-# │ ┌───────────── hour (0 - 23)
-# │ │ ┌───────────── day of month (1 - 31
-# │ │ │ ┌───────────── month (1 - 12)
-# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
-# │ │ │ │ │                    7 is also Sunday on some systems)
-# │ │ │ │ │
-# │ │ │ │ │
-# * * * * *  command_to_execute  
+#┌───────────── minute (0 - 59)
+#│ ┌───────────── hour (0 - 23)
+#│ │ ┌───────────── day of month (1 - 31
+#│ │ │ ┌───────────── month (1 - 12)
+#│ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+#│ │ │ │ │                    7 is also Sunday on some systems)
+#│ │ │ │ │
+#│ │ │ │ │
+#* * * * *  command_to_execute  
  
  # run
  in terminal run python3 weather.py
