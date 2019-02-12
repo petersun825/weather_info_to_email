@@ -53,7 +53,7 @@ def get_weather_info(locations):
 		#hourly
 		hourly_summary = result['hourly']['summary']
 
-		place_content = "{0}'s temperature is currently: {1}°C  {temp_f} , {2}\nPrecipitation probability: {3}% \nForcast: {4} \n".format(place, "%.1f" % float(temp_c), summary, current_precipProbability, hourly_summary)
+		place_content = "{0}'s temperature is currently: {1}°C  {temp_f} F , {2}\nPrecipitation probability: {3}% \nForcast: {4} \n".format(place, "%.1f" % float(temp_c), summary, current_precipProbability, hourly_summary, temp_f = temp_f)
 		email_body += '\n\n\n'+ place_content
 
 	return email_body
